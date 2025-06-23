@@ -19,7 +19,7 @@ const Login = () => {
                     <input type="text" placeholder="email" className="w-64 p-2 rounded-md border outline-none border-green-600" />
                     <input type="password" placeholder="password" className="w-64 p-2 rounded-md border outline-none border-green-600" />
                     <button className=" bg-green-700 w-64 text-white p-2 rounded-md cursor-pointer" onClick={handleLogin}>Login</button>
-                    <p className="text-sm">Don't have an account ? <Link className="text-green-700 font-medium">Sign up</Link></p>
+                    <p className="text-sm">Don't have an account ? <Link to="/signup" className="text-green-700 font-medium">Sign up</Link></p>
                 </form>
             </div>
         </>
